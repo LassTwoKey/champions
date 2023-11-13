@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarEvents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/page.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__head">
+          <div>
+            <img
+              class="header__head_logo"
+              src="./image/logohead.svg"
+              alt="Логотип StarEvents"
+            />
+          </div>
+          <form class="header__burger" action="/q">
+            <button class="burger__button">
+              <img src="./image/burgerheader 320.svg" alt="burger" />
+            </button>
+            <button class="burger__button_white">
+              <img src="./image/burger_white.svg" alt="burger" />
+            </button>
+            <select
+              class="header__burger_select"
+              name="navigation"
+              id="navigation"
+            >
+              <option value="Events">Мероприятия</option>
+              <option value="How we are work">Как мы работаем</option>
+              <option value="referense">Ссылка</option>
+              <option value="Contacts">Контакты</option>
+            </select>
+          </form>
+          <nav>
+            <ul class="header__head_nav">
+              <li>
+                <a class="header__nav_link" href="#">Мероприятия</a>
+              </li>
+              <li>
+                <a class="header__nav_link" href="#">Как мы работаем</a>
+              </li>
+              <li>
+                <a class="header__nav_link" href="#">Ссылка</a>
+              </li>
+              <li>
+                <a class="header__nav_link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__head_buttons">
+            <button class="head_button">Регистрация</button>
+            <button class="head_button_border">Войти</button>
+          </div>
+        </div>
+        <div class="header-body">
+          <h1 class="header-body_title">
+            Организуем яркие <br />
+            мероприятия и впечатления
+          </h1>
+          <span class="header-body_text"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit</span
+          >
+          <div class="header-body_buttons">
+            <form class="header_buttons__form" action="/q" method="get">
+              <div>
+                <label class="header_buttons__label" for="country"
+                  >Ваша страна</label
+                >
+                <select
+                  class="header_buttons__select"
+                  name="country"
+                  id="country"
+                >
+                  <option value=" "></option>
+                  <option value="RU">Россия</option>
+                  <option value="KZ">Казахстан</option>
+                  <option value="BY">Белорусия</option>
+                  <option value="KG">Кыргызстан</option>
+                  <option value="TJ">Таджикистан</option>
+                </select>
+              </div>
+              <div>
+                <label class="header_buttons__label" for="sity"
+                  >Ваш город</label
+                >
+                <select class="header_buttons__select" name="sity" id="sity">
+                  <option value=" "></option>
+                  <option value="Omsk">Омск</option>
+                  <option value="SanktPeterburg">Санкт-Питербург</option>
+                  <option value="Moskow">Москва</option>
+                </select>
+              </div>
+              <div>
+                <label class="header_buttons__label" for="category"
+                  >Категория</label
+                >
+                <select
+                  class="header_buttons__select"
+                  name="category"
+                  id="category"
+                >
+                  <option value=" "></option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <input class="form_button" type="submit" value="Найти" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container container-category">
+        <div>
+          <img
+            class="category_image-bg"
+            src="./image/image 29.png"
+            alt="квадратик и триуголник"
+          />
+        </div>
+        <div class="container__cards">
+          <a class="contaner-category__card card_1" href="#">
+            <span class="card__text">Ведущий</span>
+          </a>
+          <a class="contaner-category__card card_2" href="#">
+            <span class="card__text">Звезды</span>
+          </a>
+          <a class="contaner-category__card card_3" href="#">
+            <span class="card__text"
+              >Артисты на<br />
+              праздник</span
+            >
+          </a>
+          <a class="contaner-category__card card_4" href="#"
+            ><span class="card__text">Кавер-Група</span></a
+          >
+          <a class="contaner-category__card card_5" href="#">
+            <span class="card__text">Ди-джей</span>
+          </a>
+          <a class="contaner-category__card card_6" href="#">
+            <span class="card__text">Музыканты</span>
+          </a>
+          <a class="contaner-category__card card_7" href="#"
+            ><span class="card__text">Фото</span></a
+          >
+          <a class="contaner-category__card card_8" href="#"
+            ><span class="card__text">Видео</span></a
+          >
+          <a class="contaner-category__card card_9" href="#"
+            ><span class="card__text"
+              >Техническое<br />
+              обеспечение</span
+            ></a
+          >
+          <a class="contaner-category__card card_10" href="#"
+            ><span class="card__text"
+              >Декорирование <br />
+              Флористика</span
+            ></a
+          >
+          <a class="contaner-category__card card_11" href="#"
+            ><span class="card__text">Кондитеры</span></a
+          >
+          <a class="contaner-category__card card_12" href="#"
+            ><span class="card__text">Салют</span></a
+          >
+          <a class="contaner-category__card card_13" href="#">
+            <span class="card__text">Аттракционы</span>
+          </a>
+          <a class="contaner-category__card card_14" href="#"
+            ><span class="card__text">Локации</span></a
+          >
+          <a class="contaner-category__card card_15" href="#"
+            ><span class="card__text">Аренда</span></a
+          >
+          <a class="contaner-category__card card_16" href="#"
+            ><span class="card__text">Аренда транспорта</span></a
+          >
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container container-speciale">
+        <div class="container-speciale_bg-1"></div>
+        <div class="container-speciale_bg-2"></div>
+        <div class="container-speciale-top">
+          <div class="speciale-top-head">
+            <h2 class="speciale-top__title">Спецпредложения</h2>
+            <a class="speciale-top__link" href="#">Получить больше</a>
+          </div>
+          <div class="speciale-top-cards">
+            <a class="speciale-top-card" href="#">
+              <div class="top-card-box__image top-card__image1">
+                <span
+                  >Ансамбль"Цыганские <br />
+                  звёзды"Романа Коржова</span
+                >
+              </div>
+              <div class="top-card-box__rating">
+                <img src="./image/.svg" alt="5 stars rating" />
+                <div class="rating_text">
+                  <span class="rating_pretext">от </span>
+                  <span class="rating_cost">1200</span
+                  ><sup class="rating_currency">$</sup><br /><span
+                    class="rating_time"
+                    >С 2.02 по 30.04</span
+                  >
+                </div>
+              </div>
+            </a>
+            <a class="speciale-top-card" href="#">
+              <div class="top-card-box__image top-card__image2">
+                <span
+                  >Dj David Guetta <br />
+                  и лазерное шоу</span
+                >
+              </div>
+              <div class="top-card-box__rating">
+                <img src="./image/.svg" alt="5 stars rating" />
+                <div class="rating_text">
+                  <span class="rating_pretext">от </span>
+                  <span class="rating_cost">2000</span
+                  ><sup class="rating_currency">$</sup><br /><span
+                    class="rating_time"
+                    >С 3.03 по 30.04</span
+                  >
+                </div>
+              </div>
+            </a>
+            <a class="speciale-top-card" href="#">
+              <div class="top-card-box__image top-card__image3">
+                <span
+                  >Филип Киркоров<br />
+                  и группа ТОДЕС
+                </span>
+              </div>
+              <div class="top-card-box__rating">
+                <img src="./image/.svg" alt="5 stars rating" />
+                <div class="rating_text">
+                  <span class="rating_pretext">от </span>
+                  <span class="rating_cost">1000</span
+                  ><sup class="rating_currency">$</sup><br /><span
+                    class="rating_time"
+                    >С 15.03 по 20.04</span
+                  >
+                </div>
+              </div>
+            </a>
+            <a class="speciale-top-card" href="#">
+              <div class="top-card-box__image top-card__image4">
+                <span
+                  >Рок группа <br />
+                  Rammstein</span
+                >
+              </div>
+              <div class="top-card-box__rating">
+                <img src="./image/.svg" alt="5 stars rating" />
+                <div class="rating_text">
+                  <span class="rating_pretext">от </span>
+                  <span class="rating_cost">1800</span
+                  ><sup class="rating_currency">$</sup><br /><span
+                    class="rating_time"
+                    >С 9.03 по 20.04</span
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="container-speciale-body">
+          <h3 class="speciale-body__title">
+            Как <span>мы</span> <span>работаем</span>
+          </h3>
+          <div class="speciale-body__circles">
+            <div class="speciale-body__circle">
+              <span class="circle_text"
+                >Выберите артистов из <br />
+                списка и добавьте в запрос</span
+              >
+              <div class="circle_number">1</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/image_mobail.png"
+                alt="Мобильный телефон рядом с клавиатурой"
+              />
+            </div>
+            <div class="speciale-body__circle circle_revers">
+              <span class="circle_text"
+                >Бронируйте через наш <br />
+                сервис, без комиссии,<br />
+                взамен гарантируем<br />
+                качество и сервис</span
+              >
+              <div class="circle_number">2</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/womwn&men.png"
+                alt="Мужчина и женщина улыбаються"
+              />
+            </div>
+            <div class="speciale-body__circle">
+              <span class="circle_text"
+                >Расскажите Ваши пожелания,<br />
+                где, когда и что за праздник</span
+              >
+              <div class="circle_number">3</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/gifts.png"
+                alt="Люди слушают оратора"
+              />
+            </div>
+            <div class="speciale-body__circle circle_revers">
+              <span class="circle_text"
+                >Выберите координатора, организатора под ключ или проявите
+                организаторские способности сами</span
+              >
+              <div class="circle_number">4</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/lection.png"
+                alt="Люди слушают оратора"
+              />
+            </div>
+            <div class="speciale-body__circle">
+              <span class="circle_text"
+                >Обрабатываем запрос и предоставляем предложение</span
+              >
+              <div class="circle_number">5</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/keypading.png"
+                alt="Люди слушают оратора"
+              />
+            </div>
+            <div class="speciale-body__circle circle_revers">
+              <span class="circle_text">
+                Наслаждайтесь <br />
+                праздником, а наш онлайн <br />
+                помощник подскажет все<br />
+                тонкости</span
+              >
+              <div class="circle_number">6</div>
+              <img
+                class="circle_image"
+                src="./image/div_circle/konfeti.png"
+                alt="Люди слушают оратора"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

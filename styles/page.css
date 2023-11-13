@@ -1,0 +1,378 @@
+.container-category {
+  display: flex;
+  margin: 25px 0 82px 224px;
+  position: relative;
+  overflow-x: hidden;
+}
+.category_image-bg {
+  display: flex;
+  position: absolute;
+  rotate: 2.99deg;
+  left: 1100px;
+  top: 173px;
+}
+.container__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 30px;
+}
+.contaner-category__card {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 31px 31px;
+  width: 257px;
+  height: 203px;
+  background-size: cover;
+  border-radius: 6px;
+}
+.card__text {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+}
+.card_1 {
+  background-image: url(../image/container/liading.png);
+}
+.card_2 {
+  background-image: url(../image/container/stars.png);
+}
+.card_3 {
+  background-image: url(../image/container/Actors_of_fiest.png);
+}
+.card_4 {
+  background-image: url(../image/container/grups.png);
+}
+.card_5 {
+  background-image: url(../image/container/dj.png);
+}
+.card_6 {
+  background-image: url(../image/container/musikants.png);
+}
+.card_7 {
+  background-image: url(../image/container/foto.png);
+}
+.card_8 {
+  background-image: url(../image/container/video.png);
+}
+.card_9 {
+  background-image: url(../image/container/tehnik_provision.png);
+}
+.card_10 {
+  background-image: url(../image/container/decor_flor.png);
+}
+.card_11 {
+  background-image: url(../image/container/conditers.png);
+}
+.card_12 {
+  background-image: url(../image/container/firework.png);
+}
+.card_13 {
+  background-image: url(../image/container/atractions.png);
+}
+.card_14 {
+  background-image: url(../image/container/locations.png);
+}
+.card_15 {
+  background-image: url(../image/container/rent.png);
+}
+.card_16 {
+  background-image: url(../image/container/rent_transport.png);
+}
+@media (min-width: 580px) and (max-width: 1350px) {
+  .container-category {
+    margin: 0 auto;
+    max-width: 560px;
+    height: auto;
+    overflow-x: auto;
+  }
+  .category_image-bg {
+    display: none;
+  }
+  .container__cards {
+    gap: 10px 20px;
+    margin: 42px 20px;
+  }
+  .contaner-category__card {
+    width: 255px;
+  }
+}
+@media (max-width: 580px) {
+  .container-category {
+    margin: 0 auto;
+    max-width: 368px;
+    height: auto;
+    overflow-x: auto;
+  }
+  .category_image-bg {
+    display: none;
+  }
+  .container__cards {
+    gap: 10px 30px;
+    margin: 42px 30px;
+  }
+  .contaner-category__card {
+    width: 310px;
+  }
+}
+/* end container-category */
+/* start conatiner-special */
+.container-speciale {
+  margin: 0 auto;
+  display: flex;
+  background-color: rgba(249, 247, 255, 1);
+  height: 1820px;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.container-speciale_bg-1 {
+  width: 394px;
+  height: 569px;
+  position: absolute;
+  z-index: 0;
+  left: 1206px;
+  top: 899px;
+  background-image: url(../image/background_picther.png);
+}
+.container-speciale_bg-2 {
+  display: none;
+}
+.container-speciale-top {
+  width: 1113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 74px 0 68px;
+}
+.speciale-top-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+.speciale-top__title {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 23px;
+  color: rgba(39, 45, 78, 1);
+}
+.speciale-top__link {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(231, 57, 81, 1);
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+}
+.speciale-top-cards {
+  width: 100%;
+  display: flex;
+  margin-left: 3px;
+  gap: 30px;
+}
+.speciale-top-card {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 357px;
+}
+.top-card-box__image {
+  display: flex;
+  width: 255px;
+  height: 279px;
+}
+.top-card__image1 {
+  background-image: url(../image/Jipsi.png);
+}
+.top-card__image2 {
+  background-image: url(../image/bigreive.png);
+}
+.top-card__image3 {
+  background-image: url(../image/bigkoncerts.png);
+}
+.top-card__image4 {
+  background-image: url(../image/rockmusik.png);
+}
+.top-card-box__image span {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 1);
+  align-self: flex-end;
+  padding: 0 0 15px 17px;
+}
+.top-card-box__rating {
+  display: inline;
+  padding: 14px 15px 11px 17px;
+}
+.top-card-box__rating img {
+  border-radius: 8px;
+  padding-right: 19px;
+}
+.rating_text {
+  display: inline;
+}
+.rating_pretext {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: rgba(8, 9, 27, 1);
+}
+.rating_cost {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 25px;
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.rating_currency {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: rgba(7, 8, 26, 1);
+}
+.rating_time {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(7, 8, 26, 1);
+}
+@media (min-width: 580px) and (max-width: 1350px) {
+  .container-speciale {
+    max-width: 560px;
+  }
+  .container-speciale_bg-1 {
+    display: none;
+  }
+  .container-speciale_bg-2 {
+    background-image: url(../image/background_picther.png);
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    top: 1298px;
+    right: 0;
+    width: 92px;
+    height: 263px;
+  }
+  .speciale-top-head {
+    padding: 0 20px 0;
+  }
+  .container-speciale-top {
+    width: 100%;
+    margin-top: 45px;
+  }
+  .speciale-top__title {
+    font-size: 26px;
+  }
+
+  .speciale-top-cards {
+    padding-left: 10px;
+    overflow-x: auto;
+  }
+}
+@media (max-width: 580px) {
+  .container-speciale {
+    max-width: 368px;
+  }
+  .container-speciale_bg-1 {
+    display: none;
+  }
+  .container-speciale_bg-2 {
+    display: none;
+  }
+  .container-speciale-top {
+    width: 100%;
+    margin-top: 45px;
+  }
+  .speciale-top__title {
+    font-size: 26px;
+  }
+  .speciale-top__link {
+    display: none;
+  }
+  .speciale-top-cards {
+    overflow-x: auto;
+  }
+}
+/*  */
+.container-speciale-body {
+  display: flex;
+  flex-direction: column;
+}
+.speciale-body__title {
+  align-self: center;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 53px;
+  color: rgba(39, 45, 78, 1);
+}
+.speciale-body__title span:nth-child(1) {
+  font-weight: 800;
+}
+.speciale-body__title span:nth-child(2) {
+  font-weight: 900;
+}
+.speciale-body__circles {
+  display: flex;
+  margin-top: 58px;
+  gap: 1px;
+}
+.speciale-body__circle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  z-index: 999;
+}
+.circle_text {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(7, 8, 26, 0.8);
+}
+.circle_number {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color: rgba(117, 53, 243, 1);
+  align-items: center;
+  justify-content: center;
+  color: rgba(246, 250, 253, 1);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 6px;
+  letter-spacing: 0em;
+  border-radius: 100%;
+}
+.circle_image {
+  width: 105px;
+  height: 105px;
+  border-radius: 100%;
+}
+.circle_revers {
+  flex-direction: column-reverse;
+  margin-top: 105px;
+}

@@ -1,0 +1,20 @@
+:root {
+  --gradient-color: linear-gradient(128.95deg, #FD9943 21.39%, #FF3D59 87.37%, #FECB02);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  margin: 0 auto;
+  max-width: 1600px;
+}

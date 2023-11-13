@@ -1,0 +1,321 @@
+.header {
+  max-width: 1600px;
+  height: 683px;
+  background-image: url(../image/bacground.png);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.header__head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 24px 0 0 246px;
+}
+.header__head_logo {
+  display: flex;
+  width: 157px;
+  height: 39px;
+  margin-right: 85px;
+}
+.header__burger {
+  display: none;
+}
+.burger__button_white {
+  display: none;
+}
+.header__head_nav {
+  margin-right: 106px;
+  padding: 0;
+  display: flex;
+  gap: 35px;
+}
+.header__nav_link {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  color: rgba(39, 45, 78, 1);
+}
+.header__head_buttons {
+  display: flex;
+}
+.head_button {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background: none;
+  padding: 0;
+  margin-right: 45px;
+}
+.head_button_border {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+  border: 2px solid;
+  background: none;
+  width: 130px;
+  height: 47px;
+  padding: 0;
+}
+.header-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 202px 0 0;
+}
+.header-body_title {
+  display: flex;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 53px;
+  color: rgba(39, 45, 78, 1);
+  margin: 0;
+}
+.header-body_text {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(39, 45, 78, 1);
+  margin-top: 23px;
+}
+.header-body_buttons {
+  margin-top: 49px;
+}
+.header_buttons__form {
+  display: flex;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  align-items: center;
+  width: 613px;
+  height: 70px;
+  box-shadow: 0px 4px 42px 0px rgba(145, 154, 163, 0.24);
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.header_buttons__label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 31px;
+  color: rgba(76, 70, 75, 1);
+  align-items: center;
+}
+.header_buttons__select {
+  background: url(../image/strelka\ 3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  appearance: none;
+  width: 40px;
+  outline: none;
+}
+.form_button {
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  height: 70px;
+  background: rgba(231, 57, 81, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 31px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: none;
+}
+@media (min-width: 580px) and (max-width: 1350px) {
+  .header {
+    margin: 0 auto;
+    max-width: 560px;
+    height: 673px;
+    background-image: url(../image/bacgrond560.png);
+  }
+  .header__head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 0 23px;
+  }
+  .header__head_logo {
+    display: flex;
+    width: 120px;
+    height: 29px;
+    margin: 0;
+  }
+
+  .header__burger {
+    display: flex;
+  }
+  .burger__button {
+    border: none;
+    background: none;
+    margin: 0 50px 0 54px;
+    padding: 0;
+  }
+  .header__burger_select {
+    border: none;
+    appearance: none;
+    display: none;
+  }
+  .header__head_nav {
+    display: none;
+  }
+  .head_button {
+    margin-right: 26px;
+  }
+  .header-body {
+    margin-top: 158px;
+  }
+  .header-body_title {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: center;
+  }
+  .header-body_text {
+    margin-top: 15px;
+  }
+  .header-body_buttons {
+    display: flex;
+    margin-top: 39px;
+  }
+  .header_buttons__form {
+    background: rgba(255, 255, 255, 1);
+    width: 389px;
+    height: 243px;
+    padding: 0;
+    flex-direction: column;
+    border-radius: 6px;
+    align-items: center;
+  }
+  .header_buttons__form div:first-child {
+    margin-top: 24px;
+  }
+  .header_buttons__form div {
+    display: flex;
+    width: 325px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header_buttons__select {
+    display: flex;
+    justify-self: flex-end;
+  }
+  .form_button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 6px;
+    width: 389px;
+    height: 69px;
+  }
+}
+@media (max-width: 580px) {
+  .header {
+    margin: 0 auto;
+    max-width: 368px;
+    height: 672px;
+    background-image: url(../image/px320.png);
+    background-size: cover;
+  }
+  .header__head {
+    width: 100%;
+    display: flex;
+    padding: 29px 22px 0;
+    gap: 165px;
+  }
+  .header__head_logo {
+    display: flex;
+    width: 120px;
+    height: 29px;
+    margin: 0;
+  }
+  .header__burger {
+    display: flex;
+  }
+  .burger__button {
+    display: none;
+  }
+  .burger__button_white {
+    display: flex;
+    border: none;
+    background: none;
+    padding: 0;
+  }
+  .header__burger_select {
+    border: none;
+    appearance: none;
+    display: none;
+  }
+  .header__head_nav {
+    display: none;
+  }
+  .header__head_buttons {
+    display: none;
+  }
+  .head_button {
+    margin-right: 26px;
+  }
+  .header-body {
+    margin-top: 140px;
+  }
+  .header-body_title {
+    font-size: 23px;
+    font-weight: 900;
+    line-height: 33px;
+    text-align: center;
+  }
+  .header-body_text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+  }
+  .header-body_buttons {
+    display: flex;
+    margin-top: 23px;
+  }
+  .header_buttons__form {
+    background: rgba(255, 255, 255, 1);
+    width: 280px;
+    height: 235px;
+    padding: 0;
+    flex-direction: column;
+    border-radius: 6px;
+    align-items: center;
+  }
+  .header_buttons__form div:first-child {
+    margin-top: 24px;
+  }
+  .header_buttons__form div {
+    display: flex;
+    width: 325px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header_buttons__select {
+    display: flex;
+    justify-self: flex-end;
+  }
+  .form_button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 6px;
+    width: 280px;
+    height: 70px;
+  }
+}
