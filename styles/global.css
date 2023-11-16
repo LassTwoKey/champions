@@ -1,5 +1,10 @@
 :root {
-  --gradient-color: linear-gradient(128.95deg, #FD9943 21.39%, #FF3D59 87.37%, #FECB02);
+  --gradient-color: linear-gradient(
+    128.95deg,
+    #fd9943 21.39%,
+    #ff3d59 87.37%,
+    #fecb02
+  );
 }
 * {
   box-sizing: border-box;
@@ -17,5 +22,4 @@ a {
 section {
   margin: 0 auto;
   max-width: 1600px;
-  overflow-x: hidden;
 }
