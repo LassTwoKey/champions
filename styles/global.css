@@ -5,6 +5,7 @@
     #ff3d59 87.37%,
     #fecb02
   );
+  --gradient-border: linear-gradient(221.69deg, #d63895 13.94%, #834196 86.21%);
 }
 * {
   box-sizing: border-box;
@@ -20,6 +21,10 @@ a {
   text-decoration: none;
 }
 section {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+footer {
   margin: 0 auto;
   max-width: 1600px;
 }

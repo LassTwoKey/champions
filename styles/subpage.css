@@ -300,3 +300,207 @@
   line-height: 31px;
   color: rgba(255, 89, 83, 1);
 }
+@media (min-width: 580px) and (max-width: 1350px) {
+  .container-in-base {
+    max-width: 560px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-in-base__title {
+    font-size: 36px;
+    line-height: 25px;
+  }
+  .container-in-base__text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 580px) {
+  .container-in-base {
+    max-width: 320px;
+    margin: 0 auto;
+    background-position: center;
+  }
+  .container-in-base__title {
+    margin: 58px 0 20px;
+    font-size: 28px;
+    line-height: 21px;
+    max-width: 201px;
+  }
+  .container-in-base__text {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    max-width: 248px;
+  }
+  .container-in-base__button {
+    width: 240px;
+    height: 70px;
+    margin-bottom: 64px;
+  }
+}
+/* container-opinion */
+.container-opinion {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-opinion-head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 74px;
+}
+.container-opinion-head__title {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 53px;
+  text-align: left;
+  color: rgba(39, 45, 78, 1);
+  margin: 0 0 15px;
+}
+.container-opinion-head__title span {
+  font-family: Montserrat;
+  font-weight: 800;
+}
+.container-opinion-head__text {
+  max-width: 611px;
+  margin: 0 0 45px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.container-opinion-cards {
+  display: flex;
+  gap: 70px;
+}
+.container-opinion-card {
+  position: relative;
+  display: flex;
+  width: 310px;
+  height: 247px;
+  flex-direction: column;
+  box-shadow: 0px 6px 44px 0px rgba(25, 10, 50, 0.1);
+  border-radius: 9px;
+}
+.container-opinion-card img:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 3px solid transparent;
+  background: var(--gradient-border);
+  padding: 1px;
+  position: absolute;
+  top: 20px;
+  right: 270px;
+}
+.container-opinion-card img:nth-child(2) {
+  width: 65px;
+  height: 53px;
+  position: absolute;
+  top: 30px;
+  right: 17px;
+}
+.container-opinion-card__name {
+  color: rgba(25, 10, 50, 1);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  z-index: 999;
+  padding: 40px 0 4px 59px;
+}
+.container-opinion-profession {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(117, 53, 243, 1);
+  padding: 0 0 12px 59px;
+  z-index: 999;
+}
+.container-opinion-card__text {
+  padding: 0 20px 23px 59px;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.container-opinion-btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  margin: 59px 0 77px;
+}
+.container-opinion-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.container-opinion-btn img {
+  width: 30px;
+}
+.container-opinion-foot {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 66px;
+}
+@media (min-width: 580px) and (max-width: 1350px) {
+  .container-opinion {
+    max-width: 560px;
+    overflow-x: auto;
+  }
+  .container-opinion-head {
+    margin: auto;
+    padding-left: 40px;
+  }
+  .container-opinion-head__text {
+    font-size: 12px;
+  }
+  .container-opinion-foot {
+    margin: auto;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .container-opinion {
+    max-width: 320px;
+    overflow-x: auto;
+  }
+  .container-opinion-head {
+    margin: auto;
+    padding-left: 40px;
+  }
+  .container-opinion-head__title {
+    font-size: 28px;
+  }
+  .container-opinion-head__text {
+    font-size: 11px;
+  }
+  .container-opinion-card {
+    width: 235px;
+    height: 294px;
+  }
+  .container-opinion-card img:nth-child(1) {
+    top: 20px;
+    right: 195px;
+  }
+  .container-opinion-card img:nth-child(2) {
+    top: 30px;
+    right: 10px;
+  }
+  .container-opinion-foot {
+    margin: auto;
+    padding-left: 20px;
+  }
+}

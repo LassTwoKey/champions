@@ -3,7 +3,6 @@
   margin: 25px 0 82px;
   justify-content: center;
   position: relative;
-  overflow-x: hidden;
   width: 100%;
 }
 .category_image-bg {
@@ -87,7 +86,6 @@
     margin: 0 auto;
     max-width: 560px;
     height: auto;
-    overflow-x: auto;
   }
   .category_image-bg {
     display: none;
@@ -95,6 +93,7 @@
   .container__cards {
     gap: 10px 20px;
     margin: 42px 20px;
+    overflow-x: auto;
   }
   .contaner-category__card {
     width: 255px;
